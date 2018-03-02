@@ -17,7 +17,7 @@ TARGET_KERNEL_CONFIG := aosp_yoshino_lilac_defconfig
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/lilac/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 PRODUCT_NAME := aosp_g8441
 PRODUCT_DEVICE := lilac
